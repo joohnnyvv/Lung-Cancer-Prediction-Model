@@ -4,6 +4,9 @@ This repository contains a machine learning model and an API for predicting lung
 
 ## Getting Started
 
+## Deployment
+The API is deployed on Heroku. You can access it at [https://lung-cancer-prediction-d3d07d9e4aad.herokuapp.com](https://lung-cancer-prediction-d3d07d9e4aad.herokuapp.com)
+
 ### Prerequisites
 
 - Python 3.7+
