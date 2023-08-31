@@ -10,7 +10,7 @@ svm_model = joblib.load("MLmodel.joblib")
 
 @app.route("/")
 def index():
-    return "Hello World"
+    return "Api Routes: /get-prediction"
 
 @app.route("/get-prediction", methods=["POST"])
 def predict_if_patient_has_lung_cancer():
